@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 6666;
+}
+
+.header{
+    background: #0557bc;
+    position: relative;
+}
+.header::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #0b53ab;
+    clip-path: circle(80% at right 100%);
+    z-index: 666;
+}
+
+.header span{
+    color: #5be9ff;
+}
+
+.navbar-nav a{
+    color: #fff;
+}
+.navbar-toggler-icon{
+    color: #fff;
+}
+.navbar .navbar-nav a:hover,
+.navbar .navbar-nav .nav-link.active{
+    color: #5be9ff;
+}
+.btn-nav{
+    border: 1px solid #fff;
+    padding: 10px 20px 10px 20px; 
+    color: #fff;
+    transition: all .8s;
+}
+.btn-nav:hover{
+    transition: all .8s;
+    color: #0557bc;
+    background: #fff;
+}
+.header img {
+    border-radius: 30px;
+}
+.esidential-details {
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.esidential-details img {
+    max-width: 100%;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.esidential-details:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(.9);
+}
+.about p{
+    line-height: 2;
+    font-size: 19px;
+}
+.esidential-details-1 {
+    position: relative;
+    overflow: hidden;
+}
+
+.esidential-details-1 img {
+    max-width: 100%;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.esidential-details-1:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.our-services{
+    background: #f1f3f4;
+}
+.section-title,
+.about-title,
+.meet-title{
+    color: #0557bc;
+}
+
+.our-services .card{
+    padding: 30px ;
+    border: none;
+}
+.our-services .book{
+    background: #0557bc;
+    position: relative;
+    border-radius: 40px;
+}
+.book::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #0073ff;
+    clip-path: circle(30% at left 100%);
+    z-index: 666;
+}
+.our-services p{
+    line-height: 2;
+    font-size: 16px;
+}
+
+.meet{
+    margin-top: 350px;
+}
+
+.title-details p{
+    padding-top: 20px;
+    font-size: 19px;
+}
+.icon .pp{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.icon .check{
+    background: #0073ff;
+    color: #fff;
+    border-radius: 50px;
+}
+.medicine{
+    background: #f1f3f4;
+}
+.testimonials{
+    background: #f1f3f4;
+    margin-top: 90px;
+
+}
+.testimonials .title{
+    background: #fff;
+}
+
+.testimonials .title img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.schedule{
+    background: #0557bc;
+}
+.btn-schedule{
+    color: #0073ff;
+    background: #fff;
+    padding: 10px 20px 10px 20px ;
+    transition: all .8s;
+}
+.btn-schedule:hover{
+    transition: all .8s;
+    background: #f1f3f4;
+}
+.footer{
+    background: #ffffff;
+}
+.footer .info p{
+    color: #0b53ab;
+}
+
+
+.footer .contact ul svg{
+    width: 20px;
+    height: 20px;
+}
+.footer .facebook{
+    background-color: #1877f2;
+}
+.footer .twitter{
+    background-color: #1da1f2;
+}
+.footer .linkedin{
+    background-color: #0a66c2;
+}
+.footer .instagram{
+    background-color: #c13584;
+}
